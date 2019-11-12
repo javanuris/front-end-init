@@ -174,6 +174,7 @@ margin-bottom: 50px;
     border: 1px solid #ffc222;
     border-right-width: 20px;
     position: relative;
+    outline: none;
 }
 
 .default-btn:after{
@@ -197,6 +198,16 @@ z-index: 3;
 width: 40px;
 height: 40px;
 border: 1px solid #fff;
+background-color: transparent;
+cursor: pointer;
+outline: none;
+background-color: #ffc222;
+
+}
+
+.slick-btn.slick-disabled{
+    cursor: default;
+    background-color:transparent;
 }
 
 .slick-btn:before{
@@ -205,6 +216,7 @@ top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
 font-family: 'icomoon' ;
+color: #fff;
 }
 .slider__inner{
     position: relative;
@@ -212,7 +224,12 @@ font-family: 'icomoon' ;
 .slick-next:before{
     content: "\f105";
 
+
 }
+.slick-prev:before{
+    content: "\f104";
+}
+
 .slick-next{
     right: 0;
 }
@@ -220,3 +237,4 @@ font-family: 'icomoon' ;
 .slick-prev{
     left: 0;
 }
+
