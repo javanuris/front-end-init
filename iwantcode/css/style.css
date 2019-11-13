@@ -1,114 +1,114 @@
-*{
+* {
     box-sizing: border-box;
 }
 
-a{
+a {
     text-decoration: none;
-    display: inline-block; 
+    display: inline-block;
 }
 
-ul, li {
+ul,
+li {
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-.container{
+.container {
     max-width: 1170px;
     margin: 0 auto;
     padding: 0 15px;
 }
 
-.body{
-/*font-family: 'Roboto', sans-serif;*/
-font-family: 'PT Serif', serif;
-font-weight: 400;
-font-size: 14px;
-line-height: 18px;
-color: #5e5e5e;
+.body {
+    /*font-family: 'Roboto', sans-serif;*/
+    font-family: 'PT Serif', serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #5e5e5e;
 }
 
-.header{
+.header {
     font-family: 'Roboto', sans-serif;
-
 }
 
-.header__top{
+.header__top {
     background-color: #303030;
 }
 
-.header__btn{
-float: right;
-line-height: 36px;
-color: #1b1b1b;
-background-color: #ffc222;
-padding: 5px 20px 4px 50px;
-font-size: 16px;
-display: block;
-position: relative;
+.header__btn {
+    float: right;
+    line-height: 36px;
+    color: #1b1b1b;
+    background-color: #ffc222;
+    padding: 5px 20px 4px 50px;
+    font-size: 16px;
+    display: block;
+    position: relative;
 }
-.header__btn:before{
+
+.header__btn:before {
     content: "\f0b1";
-    font-family: 'icomoon' ;
+    font-family: 'icomoon';
     position: absolute;
     left: 22px;
     color: #1b1b1b;
 }
-.header__contacts:after{
+
+.header__contacts:after {
     content: "";
     clear: both;
     display: block;
 }
 
-.header__phone, .header__email{
+.header__phone,
+.header__email {
     color: #cbcacb;
     letter-spacing: 0.25px;
     line-height: 45px;
     position: relative;
-
 }
 
-.header__phone{
+.header__phone {
     padding-left: 20px;
     padding-right: 30px;
 }
 
-.header__phone:before{
+.header__phone:before {
     content: "\f095";
-    font-family: 'icomoon' ;
+    font-family: 'icomoon';
     position: absolute;
     left: 0;
     color: #ffc222;
 }
 
-.header__email{
+.header__email {
     padding-left: 24px;
 }
 
-.header__email:before{
+.header__email:before {
     content: "\f003";
-    font-family: 'icomoon' ;
+    font-family: 'icomoon';
     position: absolute;
     left: 0;
     color: #ffc222;
 }
 
-
-.header__content{
+.header__content {
     padding: 34px 0px 24px;
 }
 
-.header__content-inner{
+.header__content-inner {
     display: flex;
     justify-content: space-between;
 }
 
-
-.menu li{
+.menu li {
     display: inline-block;
-    }
-    
-.menu a{
+}
+
+.menu a {
     color: #323232;
     font-size: 16px;
     line-height: 36px;
@@ -117,18 +117,19 @@ position: relative;
     transition: all .3s;
 }
 
-.menu a:hover{
+.menu a:hover {
     border-color: #ffc222
 }
 
-.menu li + li{
+.menu li+li {
     padding-left: 10px;
 }
-#modal{
-   display: none;
+
+#modal {
+    display: none;
 }
 
-.slider{
+.slider {
     background-image: url(../img/slider-fon.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -136,40 +137,37 @@ position: relative;
     min-height: 500px;
 }
 
-.slider__item-content{
+.slider__item-content {
     text-align: center;
     padding-top: 110px;
     max-width: 665px;
     margin: 0 auto;
 }
 
-.slider__title{
- text-transform: uppercase;
- font-size: 30px;
- line-height: 36px;
- color: #fff;
- font-weight: 500px;
- letter-spacing: 0.5px;
- margin-bottom: 22px;
+.slider__title {
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 36px;
+    color: #fff;
+    font-weight: 500px;
+    letter-spacing: 0.5px;
+    margin-bottom: 22px;
 }
 
-.slider__text{
-
-line-height: 24px;
-font-size: 18px;
-color: #d3d2d2;
-margin-bottom: 50px;
-
+.slider__text {
+    line-height: 24px;
+    font-size: 18px;
+    color: #d3d2d2;
+    margin-bottom: 50px;
 }
 
-
-.default-btn{
+.default-btn {
     display: inline-block;
     font-size: 14px;
     line-height: 24px;
     color: #fff;
     font-weight: 500;
-    font-family: 'Roboto' , sans-serif;
+    font-family: 'Roboto', sans-serif;
     padding: 8px 30px 8px 24px;
     border: 1px solid #ffc222;
     border-right-width: 20px;
@@ -177,106 +175,110 @@ margin-bottom: 50px;
     outline: none;
 }
 
-.default-btn:after{
-    content: "\f105";   
-    font-family: 'icomoon' ;
+.default-btn:after {
+    content: "\f105";
+    font-family: 'icomoon';
     position: absolute;
     top: 50%;
     right: -12px;
     transform: translateY(-50%);
-
-
 }
 
-.slider{
+.slider {
     position: relative;
 }
-.slick-btn{
-position: absolute;
-top: 70%;
-z-index: 3;
-width: 40px;
-height: 40px;
-border: 1px solid #fff;
-background-color: transparent;
-cursor: pointer;
-outline: none;
-background-color: #ffc222;
 
+.slick-btn {
+    position: absolute;
+    top: 70%;
+    z-index: 3;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #fff;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+    background-color: #ffc222;
 }
 
-.slick-btn.slick-disabled{
+.slick-btn.slick-disabled {
     cursor: default;
-    background-color:transparent;
+    background-color: transparent;
 }
 
-.slick-btn:before{
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
-font-family: 'icomoon' ;
-color: #fff;
+.slick-btn:before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'icomoon';
+    color: #fff;
 }
-.slider__inner{
+
+.slider__inner {
     position: relative;
 }
-.slick-next:before{
+
+.slick-next:before {
     content: "\f105";
-
-
 }
-.slick-prev:before{
+
+.slick-prev:before {
     content: "\f104";
 }
 
-.slick-next{
+.slick-next {
     right: 0;
 }
 
-.slick-prev{
+.slick-prev {
     left: 0;
 }
 
-.services{
+.services {
     padding: 50px 0px 30px;
 }
-.services__top{
+
+.services__top {
     display: flex;
     justify-content: space-between;
     margin-bottom: 60px;
 }
 
-.services__title-box{
+.services__title-box,
+.form__title-box {
     max-width: 520px;
     padding-left: 140px;
     position: relative;
 }
 
-.services__title-box:before{
-content: "";
-position: absolute;
-width: 100px;
-height: 2px;
-background-color: #ffc222;
-left: 0;
-top:11px;
+.services__title-box:before,
+.form__title-box:before {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 2px;
+    background-color: #ffc222;
+    left: 0;
+    top: 11px;
 }
 
-.services-title{
-font-size: 24px;
-font-weight: 500;
-line-height: 24px;
-color: #212020;
-font-family: 'Roboto', sans-serif;
-margin-bottom: 10px;
+.services-title,
+.form-title {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #212020;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 10px;
 }
 
-.services-text{
+.services_text,
+.form__text {
     letter-spacing: 0.1px;
 }
 
-.services__btn a{
+.services__btn a {
     color: #373636;
     line-height: 24px;
     letter-spacing: 0.25px;
@@ -284,12 +286,12 @@ margin-bottom: 10px;
     border: 3px solid #8f8c8f;
 }
 
-.services__items{
+.services__items {
     display: flex;
     justify-content: space-between;
 }
 
-.services__item{
+.services__item {
     min-width: 360px;
     text-align: center;
     padding: 30px 0px 80px;
@@ -300,71 +302,147 @@ margin-bottom: 10px;
     box-shadow: 0px 7px 24.3px 2.7px rgba(91, 89, 89, 0.14);
 }
 
-.services__item-title{
-color: #212020;
-font-size: 18px;
-line-height: 24px;
-font-weight: 500;
-font-family: 'Roboto', sans-serif;
-padding: 24px 0;
-
+.services__item-title {
+    color: #212020;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    padding: 24px 0;
 }
 
-.services__item-text{
+.services__item-text {
     letter-spacing: 0.1px;
     padding: 0px 30px 30px;
 }
 
-.services__item-btn{
+.services__item-btn {
     position: absolute;
     bottom: 40px;
     right: 0;
     left: 0;
 }
-.services__item-btn .default-btn{
+
+.services__item-btn .default-btn {
     color: #373636;
 }
-.services__item-btn .default-btn:after{
+
+.services__item-btn .default-btn:after {
     color: #fff;
 }
 
-.services__item-link{
+.services__item-link {
     color: #050505;
-    font-family: 'Roboto' , sans-serif;
+    font-family: 'Roboto', sans-serif;
     border-bottom: 1px solid #050505;
     margin-right: 60px;
 }
 
-.about{
+.about {
     background-image: url(../img/about-fon.jpg);
     background-size: cover;
-    background-position:  center;
+    background-position: center;
     min-height: 300px;
     background-repeat: no-repeat;
     padding: 25px 0px 45px;
 }
 
-.about__inner{
+.about__inner {
     max-width: 545px;
 }
 
-.about__title{
+.about__title {
     padding: 10px 0px 25px;
     font-size: 24px;
     line-height: 24px;
     color: #fff;
-    font-family: 'Roboto' , sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
 }
 
-.about__text{
+.about__text {
     margin-bottom: 30px;
     letter-spacing: 0.1px;
     line-height: 24px;
     color: #d3d2d2;
 }
 
-.about_btn.default-btn:after{
+.about_btn.default-btn:after {
     color: #000;
 }
 
+.form {
+    padding-top: 30px;
+}
+
+.form__inner {
+    padding-bottom: 40px;
+    background-image: url(../img/form-fon.png);
+    background-position: bottom right;
+    min-height: 460px;
+    background-repeat: no-repeat;
+}
+
+.form__box {
+    max-width: 850px;
+    padding-top: 45px;
+}
+
+.form__box-inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form__box-left {
+    max-width: 260px;
+    width: 100%;
+}
+
+.form__box-right {
+    max-width: 555px;
+    width: 100%;
+}
+
+.form__box-inner label,
+.form__box-inner input,
+.form__box-inner textarea,
+.form__box-inner select {
+    display: block;
+    width: 100%;
+}
+
+.form__box-inner label {
+    line-height: 60px;
+    color: #050505;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form__box-inner input {
+    margin-bottom: 8px;
+    outline: none;
+    height: 40px;
+    border: 1px solid #e6e6e6;
+    padding: 0px 10px;
+}
+
+.form__box-inner select {
+    outline: none;
+    height: 40px;
+    border: 1px solid #e6e6e6;
+    padding-left: 17px;
+}
+
+.form__box-inner textarea {
+    outline: none;
+    border: 1px solid #e6e6e6;
+    padding: 10px;
+    height: 207px;
+    resize: none;
+    margin-bottom: 40px;
+}
+
+.form__box-inner button {
+    background-color: transparent;
+    color: #050505;
+    float: right;
+}
