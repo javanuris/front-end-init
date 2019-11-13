@@ -238,22 +238,22 @@ color: #fff;
     left: 0;
 }
 
-.about{
+.services{
     padding: 50px 0px 30px;
 }
-.about__top{
+.services__top{
     display: flex;
     justify-content: space-between;
     margin-bottom: 60px;
 }
 
-.about__title-box{
+.services__title-box{
     max-width: 520px;
     padding-left: 140px;
     position: relative;
 }
 
-.about__title-box:before{
+.services__title-box:before{
 content: "";
 position: absolute;
 width: 100px;
@@ -263,7 +263,7 @@ left: 0;
 top:11px;
 }
 
-.about-title{
+.services-title{
 font-size: 24px;
 font-weight: 500;
 line-height: 24px;
@@ -272,11 +272,11 @@ font-family: 'Roboto', sans-serif;
 margin-bottom: 10px;
 }
 
-.about-text{
+.services-text{
     letter-spacing: 0.1px;
 }
 
-.about__btn a{
+.services__btn a{
     color: #373636;
     line-height: 24px;
     letter-spacing: 0.25px;
@@ -284,12 +284,12 @@ margin-bottom: 10px;
     border: 3px solid #8f8c8f;
 }
 
-.about__items{
+.services__items{
     display: flex;
     justify-content: space-between;
 }
 
-.about__item{
+.services__item{
     min-width: 360px;
     text-align: center;
     padding: 30px 0px 80px;
@@ -300,7 +300,7 @@ margin-bottom: 10px;
     box-shadow: 0px 7px 24.3px 2.7px rgba(91, 89, 89, 0.14);
 }
 
-.about__item-title{
+.services__item-title{
 color: #212020;
 font-size: 18px;
 line-height: 24px;
@@ -310,27 +310,61 @@ padding: 24px 0;
 
 }
 
-.about__item-text{
+.services__item-text{
     letter-spacing: 0.1px;
     padding: 0px 30px 30px;
 }
 
-.about__item-btn{
+.services__item-btn{
     position: absolute;
     bottom: 40px;
     right: 0;
     left: 0;
 }
-.about__item-btn .default-btn{
+.services__item-btn .default-btn{
     color: #373636;
 }
-.about__item-btn .default-btn:after{
+.services__item-btn .default-btn:after{
     color: #fff;
 }
 
-.about__item-link{
+.services__item-link{
     color: #050505;
     font-family: 'Roboto' , sans-serif;
     border-bottom: 1px solid #050505;
     margin-right: 60px;
 }
+
+.about{
+    background-image: url(../img/about-fon.jpg);
+    background-size: cover;
+    background-position:  center;
+    min-height: 300px;
+    background-repeat: no-repeat;
+    padding: 25px 0px 45px;
+}
+
+.about__inner{
+    max-width: 545px;
+}
+
+.about__title{
+    padding: 10px 0px 25px;
+    font-size: 24px;
+    line-height: 24px;
+    color: #fff;
+    font-family: 'Roboto' , sans-serif;
+    font-weight: 500;
+}
+
+.about__text{
+    margin-bottom: 30px;
+    letter-spacing: 0.1px;
+    line-height: 24px;
+    color: #d3d2d2;
+}
+
+.about_btn.default-btn:after{
+    color: #000;
+}
+
